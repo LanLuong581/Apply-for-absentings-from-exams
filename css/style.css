@@ -1,0 +1,25 @@
+.main-content {
+    min-height: 600px;
+    height: 100%;
+    background-image: none;
+  }
+/* .login-main-form {
+    border: 0px solid;
+    padding: 30px;
+    margin-top: 50px;
+    -webkit-box-shadow: -1px 4px 26px 5px rgba(25, 29, 31, 1);
+    -moz-box-shadow: -1px 4px 26px 5px rgba(25, 29, 31, 1);
+    box-shadow: -1px 4px 26px 5px rgba(25, 29, 31, 1);
+  } */
+
+#form-login {
+    width: 500px ;
+    margin-top: 30px;
+}
+
+
+.required::after {
+    content: " *";
+    color: red;
+
+  }
